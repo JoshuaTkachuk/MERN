@@ -1,0 +1,6 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  text-align: flex-start;
+  padding-left: 75px;
+}
