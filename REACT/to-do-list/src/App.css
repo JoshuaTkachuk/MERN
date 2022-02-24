@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+.App {
+  padding-top: 25px;
+  text-align: center;
+  background-color:blanchedalmond;
+  height: 100vh;
+  font-family: 'Oswald' ;
+  font-size: 150%;
+}
+.btn{
+  font-weight:600;
+  font-family: 'Oswald' ;
+  background-color: lightblue;
+}
+.delete{
+  font-weight:900;
+  background-color: red;
+}
+
