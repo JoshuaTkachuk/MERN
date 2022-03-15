@@ -14,3 +14,8 @@ module.exports.findPeople = (req,res) => {
         .then(result => res.json(result))
         .catch(err => res.json(err))
 }
+module.exports.getPerson = (req,res) =>{
+    Person.findOne({_id:req.params.id})
+        .then(result => console.log(result.data))
+        .catch(err => console.log(err))
+}
